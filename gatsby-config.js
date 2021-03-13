@@ -20,6 +20,15 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+              plugins: [
+                `gatsby-remark-reading-time`,
+                // ...
+              ],
+            },
+          },
+          {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 750,
