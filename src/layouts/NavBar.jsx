@@ -29,9 +29,9 @@ const Nav = styled.nav`
 const NavBar = () => (
   <Headroom calcHeightOnResize disableInlineStyles>
     <Nav>
-      <Link to="/">Home</Link>
-      <Link to="/blog">Blog</Link>
-      <Link to="/about">About</Link>
+      <Link to="/">Blog</Link>
+      <a href="https://github.com/Nerajno" target="_blank" rel="noopener noreferrer" >Github</a>
+      <a href="https://developingdvlpr.com/" target="_blank" rel="noopener noreferrer" >Portfolio</a>
     </Nav>
   </Headroom>
 );
